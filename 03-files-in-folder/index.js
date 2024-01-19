@@ -21,4 +21,6 @@ async function displayFilesInfo() {
   }
 }
 
-displayFilesInfo();
+(async () => {
+  await displayFilesInfo();
+})();
