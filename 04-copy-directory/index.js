@@ -22,6 +22,4 @@ async function copyDir() {
   }
 }
 
-(async () => {
-  await copyDir();
-})();
+copyDir();
